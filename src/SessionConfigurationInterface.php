@@ -12,5 +12,5 @@ interface SessionConfigurationInterface {
   public function getGcMaxLifeTime(): int;
   public function isCookieOnlySecure(): bool;
   public function getSavePath(): string;
-  public function getCookieHttpOnly(): bool;
+  public function isCookieHttpOnly(): bool;
 }
