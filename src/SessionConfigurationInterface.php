@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace Interop\Session\Configuration;
 
 interface SessionConfigurationInterface {
-  public function getSessionHandler(): \SessionHandlerInterface;
+  public function getSessionHandler(): ?\SessionHandlerInterface;
   public function getCookieName(): string;
   public function getCookieLifetime(): int;
   public function getCookiePath(): string;
